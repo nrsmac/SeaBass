@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/relativeLayout"
+    android:background="@android:color/holo_blue_light">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/trainButton"
+            android:src="@drawable/train"
+            android:background="#00ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:paddingRight="25dp"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="25dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dogButton"
+            android:src="@drawable/dog"
+            android:background="#00ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:paddingLeft="25dp"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="25dp" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookButton"
+            android:src="@drawable/book"
+            android:background="#00ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:layout_weight="1"
+            android:scaleType="fitCenter"
+            android:paddingLeft="25dp"
+            android:layout_gravity="center_vertical"
+            android:paddingRight="25dp" />
+    </LinearLayout>
+
+</RelativeLayout>
